@@ -1,0 +1,26 @@
+.button{
+    display: block;
+    height: 4px;
+    margin-top: 58.5px;
+    width: 388px;
+    background-color: #fff;
+  }
+
+.button p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 388px;
+    margin-top: 44.5px;
+    height: 64px;
+    border-radius: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Merriweather";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    color: #080C71;
+    background-color: white;
+  }

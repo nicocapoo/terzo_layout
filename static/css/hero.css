@@ -1,16 +1,15 @@
-body, html {
-    height: 100%;
-    margin: 0;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: url("../img/test.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 110px;
     position: relative;
+    display: flex;
 }
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -25,9 +24,23 @@ body, html {
     align-items: center;
     gap: 20px;
 }
-.top-left-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 10px;
+
+.hero h1{
+    font-size: 80px;
+    color: white;
+    display: inline-block;
+    border-bottom: 2px solid #343434;
+    border-top:  2px solid #343434;
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.hero p{
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    color: #fff;
+    text-align: center;
 }
